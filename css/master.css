@@ -1,0 +1,184 @@
+/*
+
+Colores utilizados para el diseño de esta página
+
+  Color principal: #162447
+  Color de énfasis: #ffdd67
+  Color de texto a principal: WHITE
+
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: WHITE;
+}
+
+/* Botón de menu para dispositivos móviles */
+.menu-button {
+  display: block;
+  margin: 1em;
+  width: 20px;
+}
+
+.menu-button:before, .menu-button:after {
+  background-color: WHITE;
+  content: '';
+  display: block;
+  height: 4px;
+}
+
+.menu-button:before {
+  box-shadow: 0 6px 0 WHITE;
+  margin-bottom: 9px;
+}
+
+
+/* Diseño para la barra de menu */
+.color {
+  background-color: #162447;
+}
+
+.color2 {
+  color: WHITE;
+}
+
+.navbar-logo {
+  margin-left: 100%;
+  width: 100px;
+}
+
+.navbar-spacing {
+  margin-right: 10%;
+}
+
+.navbar-font {
+  color: WHITE;
+  font-size: 1.3rem;
+}
+
+.navbar-font:hover {
+  color: #ffdd67;
+  font-size: 1.3rem;
+}
+
+/* Banner */
+.image {
+  width: 100%;
+}
+
+.banner {
+  background-image: url(../resources/bg.jpg);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 860px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.3%;
+}
+
+.banner:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: BLACK;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.banner-titulo {
+  color: WHITE;
+  font-family: 'EB Garamond', serif;
+  font-size: 10rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.banner-subtitulo {
+  color: WHITE;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  margin-top: 2%;
+  text-align: center;
+  z-index: 1;
+}
+
+
+/* Sección de filosofía */
+.filosofia-titulo {
+  color: WHITE;
+  margin: 5% 50% 2% 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.filosofia-texto {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.filosofia-contenedor {
+  margin-top: 0.5%;
+  position: relative;
+}
+
+.filosofia-video-container {
+  z-index: -1;
+}
+
+.filosofia-contenedor video {
+  width: 100%;
+}
+
+.filosofia-contenido {
+  position: absolute;
+  top: 10%;
+  width: 40%;
+  margin: 0 5%;
+}
+
+
+/* Áreas de práctica */
+.practica {
+  padding: 7% 10%;
+  background-color: #162447;
+  position: relative;
+  z-index: 1;
+}
+
+.practica-box {
+  text-align: center;
+  padding: 3%;
+}
+
+.practica-img {
+  width: 30%;
+  margin-bottom: 10%;
+  transition: width 0.5s, height 0.5s, margin 0.5s;
+}
+
+.practica-img:hover {
+  width: 40%;
+
+}
+
+.practica h3, p {
+  color: white;
+}
+
+/* Frase */
+.frase-contenido {
+  position: absolute;
+  top: 10%;
+  width: 40%;
+  margin: 0 5% 0 55%;
+}
+
+.frase-texto {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+}
