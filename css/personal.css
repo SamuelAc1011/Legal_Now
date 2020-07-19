@@ -205,9 +205,10 @@ body {
 
 .container .card:hover .content {
   bottom: 0;
+  background: linear-gradient(0deg, #8012A5, transparent);
 }
 
-.container .card:nth-child(1) .content {
+/* .container .card:nth-child(1) .content {
   background: linear-gradient(0deg, #C21833, transparent);
 }
 
@@ -217,7 +218,7 @@ body {
 
 .container .card:nth-child(3) .content {
   background: linear-gradient(0deg, #00a8cc, transparent);
-}
+} */
 
 .container .card:hover .content h2 {
   margin: 0 0 10px;
