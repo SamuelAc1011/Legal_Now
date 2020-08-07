@@ -14,7 +14,7 @@
   <!--CSS Stylesheets-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/master.css">
-  <link rel="stylesheet" href="css/personal.css">
+  <!--link rel="stylesheet" href="css/personal.css"-->
 
   <!--Bootstrap Scripts-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -23,7 +23,6 @@
 </head>
 
 <body>
-
   <!-- Navbar -->
   <nav class="navbar color-blue navbar-expand-lg navbar-font">
     <a class="navbar-brand" href="index.html"><img src="resources/Logo.webp" class="navbar-logo" alt="Legal Now"></a>
@@ -33,16 +32,16 @@
     <div class="collapse navbar-collapse navbar-spacing" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link navbar-font" href="#practica">Áreas de práctica</a>
+          <a class="nav-link navbar-font navbar-space" href="#practica">Áreas de práctica</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navbar-font" href="#equipo">¿Quiénes sómos?</a>
+          <a class="nav-link navbar-font navbar-space" href="#equipo">¿Quiénes sómos?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navbar-font" href="#" class="space">Aviso de privacidad</a>
+          <a class="nav-link navbar-font navbar-space" href="#" class="space">Aviso de privacidad</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navbar-font" href="#" class="space">Contacto</a>
+          <a class="nav-link navbar-font navbar-space" href="#" class="space">Contacto</a>
         </li>
       </ul>
     </div>
@@ -57,7 +56,7 @@
   <!-- Nuestra Filosofía -->
   <div class="filosofia-contenedor">
     <div class="filosofia-video-container">
-      <video src="resources/v1.mp4" type="video/mp4" autoplay muted loop poster="posterimage.jpg"></video>
+      <video src="resources/v1.mp4" type="video/mp4" autoplay muted loop></video>
     </div>
 
     <div class="filosofia-contenido">
@@ -69,97 +68,119 @@
     </div>
   </div>
 
-
   <!-- Áreas de práctica -->
+    <section id="practica" class="practica">
 
-  <section id="practica" class="practica">
+      <div class="row">
+        <div class="practica-box col-lg-4 col-md-12">
+          <img class="practica-img" src="resources/civil.svg" alt="">
+          <h3 class="color-white practica-title">Materia Civil</h3>
+          <p class="color-white practica-text">Las relaciones de nuestro clientes con otros individuos y con el estado. Cuestiones personales, de familia, obligaciones, entre otras.</p>
+        </div>
 
-    <div class="row">
-      <div class="practica-box col-lg-4 col-md-12">
-        <img class="practica-img" src="resources/civil.svg" alt="">
-        <h3 class="color-white">Materia Civil</h3>
-        <p class="color-white">Las relaciones de nuestro clientes con otros individuos y con el estado. Cuestiones personales, de familia, obligaciones, entre otras.</p>
-      </div>
+        <div class="practica-box col-lg-4 col-md-12">
+          <img class="practica-img" src="resources/contratos.svg" alt="">
+          <h3 class="color-white practica-title">Contratos</h3>
+          <p class="color-white practica-text">El acuerdo de voluntades de dos o más personas, con la intención de
+            producir y/o
+            transferir derechos y obligaciones.</p>
+        </div>
 
-      <div class="practica-box col-lg-4 col-md-12">
-        <img class="practica-img" src="resources/contratos.svg" alt="">
-        <h3 class="color-white">Contratos</h3>
-        <p class="color-white">El acuerdo de voluntades de dos o más personas, con la intención de producir y/o transferir derechos y obligaciones.</p>
-      </div>
+        <div class="practica-box col-lg-4 col-md-12">
+          <img class="practica-img" src="resources/tramites.svg" alt="">
+          <h3 class="color-white practica-title">Trámites</h3>
+          <p class="color-white practica-text">Trámites administrativos, públicos y privados.</p>
+        </div>
 
-      <div class="practica-box col-lg-4 col-md-12">
-        <img class="practica-img" src="resources/tramites.svg" alt="">
-        <h3 class="color-white">Trámites</h3>
-        <p class="color-white">Trámites administrativos, públicos y privados.</p>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- frase -->
-  <section id="frase">
-    <div class="filosofia-contenedor">
-      <div class="filosofia-video-container">
-        <video src="resources/v2.mp4" type="video/mp4" autoplay muted loop poster="posterimage.jpg"></video>
-      </div>
-
-      <div class="frase-contenido">
-        <div class="frase-texto ">
-          <p>"Somos profesionistas en desarrollo, de la licenciatura en derecho, interesadas en ayudar a nuestos clientes, mediante un asesoramiento jurídico de calidad"</p>
+        <div class="practica-box col-lg-12">
+          <a class="btn btn-warning boton" href="#" role="button">Más información</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+      <!-- frase -->
+      <section id="frase">
+        <div class="filosofia-contenedor">
+          <div class="filosofia-video-container">
+            <video src="resources/v2.mp4" type="video/mp4" autoplay muted loop></video>
+          </div>
+
+          <div class="frase-contenido">
+            <div class="frase-texto ">
+              <p>"Somos profesionistas en desarrollo, de la licenciatura en derecho, interesadas en ayudar a nuestos
+                clientes, mediante un asesoramiento jurídico de calidad"</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
-
+  <!-- Equipo -->
   <section id="equipo" class="equipo-marco">
     <h1 class="quien-texto">Profesionistas en Desarrollo</h1>
-    <div class="container lineas3">
-      <div class="card">
-        <div class="img-box"><img src="resources/persona1a.jpg"></div>
-        <div class="content">
-          <h2>Aranza Del Castillo <br> <span>Licenciada en derecho</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-12">
+          <div class="card">
+            <img src="resources/persona1.jpg" class="equipo-foto">
+            <div class="card-body">
+              <h5 class="card-title texto-nombre">Aranza Del Castillo</h5>
+              <p class="card-text texto-personal">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text texto-personal"><small class="text-muted">Licenciada en derecho</small></p>
+            </div>
+          </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-12">
+  <div class="card">
+    <img src="resources/persona2.jpg" class="equipo-foto">
+    <div class="card-body">
+      <h5 class="card-title texto-nombre">Karem Tapia</h5>
+      <p class="card-text texto-personal">This card has supporting text below as a natural lead-in to additional
+        content.</p>
+      <p class="card-text texto-personal"><small class="text-muted">Licenciada en derecho</small></p>
+    </div>
+  </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-12">
+          <div class="card">
+            <img src="resources/persona3.jpg" class="equipo-foto">
+            <div class="card-body">
+              <h5 class="card-title texto-nombre">Salma Hernández</h5>
+              <p class="card-text texto-personal">This card has supporting text below as a natural lead-in to additional
+                content.</p>
+              <p class="card-text texto-personal"><small class="text-muted">Licenciada en derecho</small></p>
+            </div>
+          </div>
+      </div>
+      <div class=" col-lg-2 col-sm-0"></div>
+      <div class="pricing-column col-lg-4 col-md-12">
+        <div class="card">
+          <img src="resources/persona4.jpg" class="equipo-foto">
+          <div class="card-body">
+            <h5 class="card-title texto-nombre">Noemi Romo</h5>
+            <p class="card-text texto-personal">This card has supporting text below as a natural lead-in to additional
+              content.</p>
+            <p class="card-text texto-personal"><small class="text-muted">Licenciada en derecho</small></p>
+          </div>
         </div>
       </div>
-      <div class="card">
-        <div class="img-box"><img src="resources/persona2a.jpg"></div>
-        <div class="content">
-          <h2>Karem Tapia <br> <span>Licenciada en derecho</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+
+      <div class="pricing-column col-lg-4 col-md-12">
+        <div class="card">
+          <img src="resources/persona5.jpg" class="equipo-foto">
+          <div class="card-body">
+            <h5 class="card-title texto-nombre">Paulina Torrijos</h5>
+            <p class="card-text texto-personal">This card has supporting text below as a natural lead-in to additional
+              content.</p>
+            <p class="card-text texto-personal"><small class="text-muted">Licenciada en derecho</small></p>
+          </div>
         </div>
       </div>
-      <div class="card">
-        <div class="img-box"><img src="resources/persona3a.jpg"></div>
-        <div class="content">
-          <h2>Salma Hernández <br> <span>Licenciada en derecho</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-        </div>
-      </div>
+      <div class=" col-lg-2 col-sm-0"></div>
     </div>
 
-    <div class="container lineas2">
-      <div class="card">
-        <div class="img-box"><img src="resources/persona4a.jpg"></div>
-        <div class="content">
-          <h2>Noemi Romo <br> <span>Licenciada en derecho</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-        </div>
-      </div>
 
-
-      <div class="card">
-        <div class="img-box"><img src="resources/persona5a.jpg"></div>
-        <div class="content">
-          <h2>Paulina Torrijos <br> <span>Licenciada en derecho</span></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-        </div>
-      </div>
-    </div>
   </section>
-
-
 </body>
-
-</html>

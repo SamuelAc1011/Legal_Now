@@ -1,10 +1,9 @@
-
 /*
 
 Colores utilizados para el diseño de esta página
 
   Color principal: #162447
-  Color de énfasis: #ffdd67
+  Color de énfasis: #FFDD67
   Color de texto a principal: WHITE
 
 */
@@ -14,7 +13,7 @@ html {
 }
 
 body {
-  background-color: WHITE;
+  background-color: #162447;
   margin: 0;
   padding: 0;
 }
@@ -32,12 +31,11 @@ body {
   color: WHITE;
 }
 
-
 /* Botón de menu para dispositivos móviles */
 .menu-button {
   display: block;
-  margin: 1em;
-  width: 20px;
+  margin: 2em;
+  width: 40px;
 }
 
 .menu-button:before {
@@ -53,7 +51,6 @@ body {
 }
 
 /* Diseño para la barra de menu */
-
 .navbar-logo {
   margin-left: 100%;
   width: 100px;
@@ -117,7 +114,6 @@ body {
   z-index: 1;
 }
 
-
 /* Sección de filosofía */
 .filosofia-contenedor {
   margin-top: 0.5%;
@@ -151,11 +147,10 @@ body {
   font-size: 1.5rem;
 }
 
-
 /* Áreas de práctica */
 .practica {
   background-color: #162447;
-  padding: 7% 10%;
+  padding: 0 10%;
   position: relative;
   z-index: 1;
 }
@@ -175,6 +170,11 @@ body {
   width: 40%;
 }
 
+.boton {
+  border-radius: 30px;
+  font-size: 1rem;
+}
+
 /* Frase */
 .frase-contenido {
   margin: 0 5% 0 55%;
@@ -192,4 +192,161 @@ body {
 
 .equipo-marco {
   margin: 5%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.quien-texto {
+  font-family: 'Ubuntu';
+  text-align: center;
+  font-size: 3rem;
+  margin: 1%;
+  color: WHITE;
+}
+
+.equipo-foto {
+  width: 100%;
+  border-radius: 5px;
+}
+
+  .texto-personal {
+    margin: 0 10%;
+    text-align: center;
+  }
+
+  .texto-nombre {
+    font-size: 2rem;
+    text-align: center;
+    color: purple;
+  }
+
+
+@media(max-width: 1000px) {
+  /* Diseño para la barra de menu */
+  .navbar-logo {
+    margin-left: 50%;
+    width: 200px;
+  }
+
+  .navbar-spacing {
+    margin-right: 10%;
+  }
+
+  .navbar-font {
+    color: WHITE;
+    font-size: 2.3rem;
+  }
+
+  .navbar-space {
+    margin: 2% 0 2% 0;
+  }
+
+  .navbar-font:hover {
+    color: #ffdd67;
+    font-size: 2.3rem;
+  }
+
+  /* Sección de filosofía */
+  .filosofia-contenido {
+    margin: 0 1%;
+    position: absolute;
+    top: 10%;
+    width: 90%;
+  }
+
+  .filosofia-titulo {
+    color: WHITE;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    margin: 5% 50% 2% 2%;
+  }
+
+  .filosofia-texto {
+    margin-left: 5%;
+    color: white;
+    font-size: 1.5rem;
+    width: 50%;
+  }
+
+  .practica-text {
+    font-size: 3rem;
+    text-align: justify;
+    margin-bottom: 10%;
+  }
+
+  .practica-title {
+    margin-bottom: 10%;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .practica-img {
+    width: 40%;
+  }
+
+  .practica-img {
+    margin-bottom: 5% 10%;
+    transition: width 0.5s, height 0.5s, margin 0.5s;
+    width: 40%;
+  }
+
+  .practica-img:hover {
+    width: 50%;
+  }
+
+  .boton {
+    border-radius: 30px;
+    font-size: 4rem;
+    ;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+
+  .practica {
+    background-color: #162447;
+    padding: 7% 10%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .frase-contenido {
+    margin: 0 5% 0 55%;
+    position: absolute;
+    top: 10%;
+    width: 40%;
+  }
+
+  .frase-texto {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .container .card:hover .content h2 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: WHITE;
+    font-size: 40px;
+  }
+
+  .container .card:hover .content h2 span {
+    color: #FFEB3B;
+    font-size: 36px;
+  }
+  
+  .texto-personal{
+    font-size: 3rem;
+    margin: 0 10%;
+    text-align: center;
+  }
+
+  .texto-nombre {
+    font-size: 4rem;
+    text-align: center;
+    color: purple;
+  }
 }
