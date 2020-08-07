@@ -7,7 +7,6 @@ Colores utilizados para el diseño de esta página
   Color de texto a principal: WHITE
 
 */
-
 html {
   scroll-behavior: smooth;
 }
@@ -20,7 +19,7 @@ body {
 
 /* Alineacion y colores */
 .align-justify {
-  text-align:justify;
+  text-align: justify;
 }
 
 .color-blue {
@@ -189,7 +188,6 @@ body {
   font-size: 2.5rem;
 }
 
-
 .equipo-marco {
   margin: 5%;
 }
@@ -211,19 +209,19 @@ body {
   border-radius: 5px;
 }
 
-  .texto-personal {
-    margin: 0 10%;
-    text-align: center;
-  }
+.texto-personal {
+  margin: 0 10%;
+  text-align: center;
+}
 
-  .texto-nombre {
-    font-size: 2rem;
-    text-align: center;
-    color: purple;
-  }
-
+.texto-nombre {
+  font-size: 2rem;
+  text-align: center;
+  color: purple;
+}
 
 @media(max-width: 1000px) {
+
   /* Diseño para la barra de menu */
   .navbar-logo {
     margin-left: 50%;
@@ -337,8 +335,8 @@ body {
     color: #FFEB3B;
     font-size: 36px;
   }
-  
-  .texto-personal{
+
+  .texto-personal {
     font-size: 3rem;
     margin: 0 10%;
     text-align: center;
