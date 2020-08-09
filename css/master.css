@@ -215,7 +215,7 @@ body {
 }
 
 .texto-nombre {
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: center;
   color: purple;
 }
@@ -228,6 +228,37 @@ body {
   color: #ffdd67;
   font-size: 1.5rem;
 }
+
+.piePagina {
+  width: 100%;
+  height: 10%;
+  background: #142d4c;
+}
+
+.piePagina h4,h7,small{
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.conocenos {
+    color: white;
+    margin:0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.piePagina h4 {
+  padding: 50px 0 0 0;
+}
+
+.img-conocenos {
+  width: 50px;
+  margin: 1%;
+}
+
 
 @media(max-width: 1000px) {
 
@@ -363,5 +394,47 @@ body {
     font-size: 5rem;
     margin: 5%;
     color: WHITE;
+  }
+
+  .piePagina h4,
+  h7,
+  small {
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .piePagina h4 {
+    padding: 50px 0 0 0;
+    font-size: 4rem;
+  }
+
+    .piePagina h7 {
+      padding: 50px 0 0 0;
+      font-size: 2rem;
+    }
+
+  .conocenos {
+    color: white;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .img-conocenos {
+    width: 100px;
+    margin: 5%;
+  }
+
+  .contenedor-contacto {
+    margin: 40% 20%;
+  }
+
+  .form-group {
+    color: #ffdd67;
+    font-size: 2.5rem;
   }
 }
