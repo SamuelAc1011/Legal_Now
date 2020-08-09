@@ -169,7 +169,7 @@ body {
   width: 40%;
 }
 
-.boton {
+.button {
   border-radius: 30px;
   font-size: 1rem;
 }
@@ -218,6 +218,15 @@ body {
   font-size: 2rem;
   text-align: center;
   color: purple;
+}
+
+.contenedor-contacto {
+  margin: 10% 20%;
+}
+
+.form-group{
+  color: #ffdd67;
+  font-size: 1.5rem;
 }
 
 @media(max-width: 1000px) {
@@ -294,7 +303,7 @@ body {
     width: 50%;
   }
 
-  .boton {
+  .button {
     border-radius: 30px;
     font-size: 4rem;
     ;
