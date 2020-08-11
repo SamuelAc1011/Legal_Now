@@ -83,7 +83,6 @@ body {
   flex-direction: column;
   height: 860px;
   justify-content: center;
-  margin-bottom: 0.3%;
   width: 100%;
 }
 
@@ -115,7 +114,6 @@ body {
 
 /* Sección de filosofía */
 .filosofia-contenedor {
-  margin-top: 0.5%;
   position: relative;
 }
 
