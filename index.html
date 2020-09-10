@@ -9,24 +9,36 @@
   <link rel="icon" href="resources/icon.ico">
 
   <!--Google Fonts-->
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Ubuntu:wght@700&display=swap"
+    rel="stylesheet">
 
   <!--CSS Stylesheets-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/master.css">
   <!--link rel="stylesheet" href="css/personal.css"-->
 
   <!--Bootstrap Scripts-->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+  <!-- JavaScript Functions -->
+  <script src="js/procesos.js"></script>
 </head>
 
 <body>
   <!-- Navbar -->
   <nav class="navbar color-blue navbar-expand-lg navbar-font">
     <a class="navbar-brand" href="index.html"><img src="resources/Logo.webp" class="navbar-logo" alt="Legal Now"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <a class="menu-button"></a>
     </button>
     <div class="collapse navbar-collapse navbar-spacing" id="navbarNav">
@@ -62,8 +74,11 @@
     <div class="filosofia-contenido">
       <h1 class="filosofia-titulo">Nuestra Filosofía</h1>
       <div class="filosofia-texto align-justify">
-        <p>Nuestra misión, ante los retos de la actualidad, es brindar orientación jurídica inteligente y vanguardista, frente a situaciones legales que enfrenten nuestros clientes, de manera personalizada, eficaz y de alta calidad.</p>
-        <p>Nuestro modelo apuesta por consolidarse en un despacho de abogados, capaz de brindar soluciones legales especializadas y de calidad en un mundo globalizado.</p>
+        <p>Nuestra misión, ante los retos de la actualidad, es brindar orientación jurídica inteligente y vanguardista,
+          frente a situaciones legales que enfrenten nuestros clientes, de manera personalizada, eficaz y de alta
+          calidad.</p>
+        <p>Nuestro modelo apuesta por consolidarse en un despacho de abogados, capaz de brindar soluciones legales
+          especializadas y de calidad en un mundo globalizado.</p>
       </div>
     </div>
   </div>
@@ -75,7 +90,8 @@
       <div class="practica-box col-lg-4 col-md-12">
         <img class="practica-img" src="resources/civil.svg" alt="">
         <h3 class="color-white practica-title">Materia Civil</h3>
-        <p class="color-white practica-text">Las relaciones de nuestro clientes con otros individuos y con el estado. Cuestiones personales, de familia, obligaciones, entre otras.</p>
+        <p class="color-white practica-text">Las relaciones de nuestro clientes con otros individuos y con el estado.
+          Cuestiones personales, de familia, obligaciones, entre otras.</p>
       </div>
 
       <div class="practica-box col-lg-4 col-md-12">
@@ -92,8 +108,50 @@
         <p class="color-white practica-text">Trámites administrativos, públicos y privados.</p>
       </div>
 
+      <div class="col-lg-12 col-more" id="masInfo">
+
+        <div class="card text-white bg-dark mb-12">
+          <div class="card-header">Asesoría Legal</div>
+          <div class="card-body">
+            <div class="row">
+
+              <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                    href="#list-home" role="tab" aria-controls="home">Civil</a>
+                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                    href="#list-profile" role="tab" aria-controls="profile">Familiar</a>
+                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                    href="#list-messages" role="tab" aria-controls="messages">Laboral</a>
+                  <a class="list-group-item list-group-item-action id=" list-settings-list" data-toggle="list"
+                    href="#list-settings" role="tab" aria-controls="settings">Propiedad intelectual</a>
+                </div>
+              </div>
+
+              <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                    aria-labelledby="list-home-list">
+                    Esto es civil</div>
+                  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Esto
+                    es familiar</div>
+                  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                    Esto es Laboral
+                  </div>
+                  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                    Esto es propiedad intelectual
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
       <div class="practica-box col-lg-12">
-        <a class="btn btn-warning button" href="#" role="button">Más información</a>
+        <a id="button-more" class="btn btn-warning button" onclick="botonMas()" role="button">Más información</a>
       </div>
     </div>
   </section>
@@ -107,7 +165,8 @@
 
       <div class="frase-contenido">
         <div class="frase-texto ">
-          <p>"Somos profesionistas en desarrollo, de la licenciatura en derecho, interesadas en ayudar a nuestros clientes, mediante un asesoramiento jurídico de calidad"</p>
+          <p>"Somos profesionistas en desarrollo, de la licenciatura en derecho, interesadas en ayudar a nuestros
+            clientes, mediante un asesoramiento jurídico de calidad"</p>
         </div>
       </div>
     </div>
@@ -124,7 +183,8 @@
           <img src="resources/persona1.jpg" class="equipo-foto">
           <div class="card-body">
             <h5 class="card-title texto-nombre">Aranza Del Castillo</h5>
-            <p class="card-text texto-personal">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text texto-personal">This card has supporting text below as a natural lead-in to additional
+              content.</p>
             <p class="card-text texto-personal"><small class="text-muted">Licenciada en derecho</small></p>
           </div>
         </div>
@@ -156,7 +216,7 @@
 
       <div class="pricing-column col-lg-3 col-md-12">
         <div class="card">
-          <img src="resources/persona5.jpg" class="equipo-foto">
+          <img src="resources/persona4.jpg" class="equipo-foto">
           <div class="card-body">
             <h5 class="card-title texto-nombre">Paulina Torrijos</h5>
             <p class="card-text texto-personal">This card has supporting text below as a natural lead-in to additional

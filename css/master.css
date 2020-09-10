@@ -42,7 +42,8 @@ body {
   margin-bottom: 9px;
 }
 
-.menu-button:before, .menu-button:after {
+.menu-button:before,
+.menu-button:after {
   background-color: WHITE;
   content: '';
   display: block;
@@ -213,16 +214,19 @@ body {
 }
 
 .texto-nombre {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-align: center;
   color: purple;
 }
 
 .contenedor-contacto {
+  background: #162447;
+  padding: 5% 10%;
   margin: 10% 20%;
+  border-radius: 40px;
 }
 
-.form-group{
+.form-group {
   color: #ffdd67;
   font-size: 1.5rem;
 }
@@ -233,7 +237,9 @@ body {
   background: #142d4c;
 }
 
-.piePagina h4,h7,small{
+.piePagina h4,
+h7,
+small {
   color: white;
   text-align: center;
   align-items: center;
@@ -241,11 +247,11 @@ body {
 }
 
 .conocenos {
-    color: white;
-    margin:0;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  color: white;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .piePagina h4 {
@@ -257,6 +263,9 @@ body {
   margin: 1%;
 }
 
+.col-more {
+  display: none;
+}
 
 @media(max-width: 1000px) {
 
@@ -408,10 +417,10 @@ body {
     font-size: 4rem;
   }
 
-    .piePagina h7 {
-      padding: 50px 0 0 0;
-      font-size: 2rem;
-    }
+  .piePagina h7 {
+    padding: 50px 0 0 0;
+    font-size: 2rem;
+  }
 
   .conocenos {
     color: white;
