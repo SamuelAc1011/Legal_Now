@@ -38,6 +38,7 @@
       background-repeat: no-repeat;
     }
   </style>
+
   <!-- Navbar -->
   <nav class="navbar color-blue navbar-expand-lg navbar-font">
     <a class="navbar-brand" href="index.html"><img src="resources/Logo.webp" class="navbar-logo" alt="Legal Now"></a>
@@ -63,28 +64,30 @@
     </div>
   </nav>
 
+  <!-- Formulario -->
   <div class="contenedor-contacto">
-    <form action="mailto:legalnowmx@gmail.com" enctype="text/plain">
+    <form action="mailto:legalnowmx@gmail.com" enctype="text/plain" method="post">
       <div class="form-row">
         <div class="form-group col-md-12">
           <label for="inputName">Nombre</label>
-          <input type="text" class="form-control" name="Nombre" id="name" placeholder="Nombre">
+          <input type="text" class="form-control" required name="Nombre" id="name" placeholder="Nombre">
         </div>
       </div>
       <div class="form-row">
         <div class="form-group col-md-12">
           <label for="inputTel">Teléfono</label>
-          <input type="number" class="form-control" name="Teléfono" id="phone" placeholder="Teléfono">
+          <input type="number" class="form-control" name="Contacto" id="phone" placeholder="Teléfono">
         </div>
       </div>
       <div class="form-group">
         <label for="exampleFormControlTextarea1">Escribe tu mensaje aquí</label>
-        <textarea class="form-control" name="Mensaje" id="mensaje" rows="3"></textarea>
+        <textarea class="form-control" required name="Mensaje" id="mensaje" rows="3"></textarea>
       </div>
       <button type="submit" class="btn btn-outline-warning">Enviar correo</button>
     </form>
   </div>
 
+  <!-- Pie de página -->
   <section class="piePagina">
     <div class="conocenos">
       <h4>Conócenos</h4>
