@@ -208,6 +208,10 @@ body {
   color: WHITE;
 }
 
+.contenido-info {
+  font-size: 1.4rem;
+}
+
 .equipo-foto {
   width: 100%;
   border-radius: 5px;
@@ -454,5 +458,9 @@ small {
     font-size: 30px;
     width: 100%;
     padding: 50px 80px
+  }
+
+  .contenido-info {
+    font-size: 2.4rem;
   }
 }
